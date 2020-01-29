@@ -7,5 +7,13 @@
 // map the developerlist over a <ul><li>, render.
 // import Developer in app.js
 
-import React from "react";
+import React, { Component } from "react";
 import DevelopersList from "./DevelopersList";
+
+export default class Developer extends Component {
+  render() {
+    // const devs = this.props
+    console.log(this.props.devs.count);
+    console.log(this.props.devs);
+  }
+}

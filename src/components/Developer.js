@@ -11,7 +11,7 @@ export default class Developer extends Component {
       // note: should add ID to the div as well.
       <div>
         <h2>{this.props.singleDeveloper.name}</h2>
-        <h2>{this.props.singleDeveloper.email}</h2>
+        <h4>{this.props.singleDeveloper.email}</h4>
       </div>
 
       // const devs = this.props

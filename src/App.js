@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import DevelopersList from "./components/DevelopersList";
+import Developer from "./components/Developer";
 
 function App() {
   return (
